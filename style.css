@@ -76,10 +76,15 @@ h1 {
 color: blue;
 font-size: 60px;
 font-family: cursive;
+
 }
 
 h1{
     color: rgb(19, 66, 85);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 p{
@@ -90,5 +95,9 @@ p{
 p{
     color: rgb(10, 74, 10);
     font-family: fantasy;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 #footer{}
